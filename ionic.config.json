@@ -1,5 +1,15 @@
 {
   "name": "chartjs-ionic",
   "integrations": {},
-  "type": "ionic-angular"
+  "type": "ionic-angular",
+  "proxies": [
+    {
+      "path": "/weather",
+      "proxyUrl": "https://samples.openweathermap.org"
+    },
+    {
+      "path": "/cartola",
+      "proxyUrl": "https://api.cartolafc.globo.com"
+    }
+  ]
 }
